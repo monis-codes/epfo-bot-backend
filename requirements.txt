@@ -1,0 +1,43 @@
+fastapi
+uvicorn[standard]
+python-multipart
+huggingface_hub
+# Authentication and security
+python-jose[cryptography]
+passlib[bcrypt]
+python-jwt
+
+# Rate limiting
+slowapi
+
+# Configuration and validation
+pydantic
+pydantic-settings
+
+# Database and Supabase
+supabase
+postgrest
+
+# Vector database
+pinecone
+
+# AI and ML
+google-generativeai
+requests
+
+# PDF processing
+pypdf
+gotrue
+# Logging and monitoring
+structlog
+
+# Development dependencies
+pytest
+pytest-asyncio
+httpx
+black
+flake8
+mypy
+
+# Production dependencies
+gunicorn
